@@ -3,19 +3,20 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
+import { brand, leadership, why } from "@/content/inverse";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
+  title: `${brand.name} — About` ,
+  description:
+    "We help leaders architect brands that move markets, shape perception, and deepen trust — with clarity, resonance, and narrative control.",
 };
 
 const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About"
+        description={why.paragraph}
       />
       <AboutSectionOne />
       <AboutSectionTwo />

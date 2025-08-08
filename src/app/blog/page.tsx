@@ -3,19 +3,20 @@ import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
+import { brand } from "@/content/inverse";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
+  title: `${brand.name} — Insights` ,
+  description:
+    "Thought leadership on narrative strategy, reputation capital, media positioning, and executive communications.",
 };
 
 const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Insights"
+        description="Signals, frameworks, and perspectives shaping brand strategy, influence, and market voice."
       />
 
       <section className="pt-[120px] pb-[120px]">

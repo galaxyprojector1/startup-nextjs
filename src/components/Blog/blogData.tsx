@@ -3,12 +3,12 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Clarity that moves markets",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Why narrative precision—not volume—creates outsized leverage across capital, media, and customer decisions.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Editorial Team",
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
@@ -17,12 +17,12 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Reputation capital in practice",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "A practical playbook for building credibility with the stakeholders that matter most—before you need it.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Editorial Team",
       image: "/images/blog/author-02.png",
       designation: "Content Writer",
     },
@@ -31,12 +31,12 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Designing content that compounds",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "How to turn thought leadership into a system that scales presence, relevance, and authority over time.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Editorial Team",
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },

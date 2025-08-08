@@ -12,8 +12,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "INVERSE GROUP — Brand. Narrative. Influence.",
+  description:
+    "Strategic brand and communications for leaders who need to be understood at scale — narrative precision, emotional resonance, and reputational capital.",
   // other metadata
 };
 

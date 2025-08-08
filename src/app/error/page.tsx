@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Error Page for Startup Nextjs Template",
+  title: "Erreur | INVERSE GROUP",
+  description: "La page demandée n’existe pas ou a été déplacée.",
   // other metadata
 };
 
@@ -152,7 +152,7 @@ const ErrorPage = () => {
                   href="/"
                   className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
-                  Back to Homepage
+                  Retour à l’accueil
                 </Link>
               </div>
             </div>
