@@ -3,13 +3,13 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Accueil",
+    title: "Home",
     path: "/",
     newTab: false,
   },
   {
     id: 2,
-    title: "À propos",
+    title: "About",
     path: "/about",
     newTab: false,
   },
@@ -27,12 +27,12 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Plus",
+    title: "More",
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "À propos",
+        title: "About",
         path: "/about",
         newTab: false,
       },
@@ -56,25 +56,25 @@ const menuData: Menu[] = [
       },
       {
         id: 45,
-        title: "Insight (détails)",
+        title: "Insight (details)",
         path: "/blog-details",
         newTab: false,
       },
       {
         id: 46,
-        title: "Connexion",
+        title: "Sign In",
         path: "/signin",
         newTab: false,
       },
       {
         id: 47,
-        title: "Créer un compte",
+        title: "Sign Up",
         path: "/signup",
         newTab: false,
       },
       {
         id: 48,
-        title: "Erreur",
+        title: "Error",
         path: "/error",
         newTab: false,
       },

@@ -13,8 +13,8 @@ export default function Video() {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Prêts à clarifier votre récit"
-            paragraph="Démo stratégique sur la clarté de marque, la réputation et les leviers de visibilité. Voyez comment nous opérons."
+            title="Ready to clarify your narrative"
+            paragraph="A strategic walkthrough on brand clarity, reputation, and visibility levers. See how we operate."
             center
             mb="80px"
           />
